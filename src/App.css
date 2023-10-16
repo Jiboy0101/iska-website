@@ -1,0 +1,151 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: #7E0001;
+}
+
+header{
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  top: 0;
+  position: sticky;
+  bottom: 0;
+  background-color: #7E0001;
+  z-index: 10;
+}
+
+header img{
+  width: 15vh;
+  height: 15vh;;
+}
+
+.menu{
+  color: gold;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.home{
+  color: gold;
+}
+
+.question{
+  color: gold;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+
+.logo-name{
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 20;
+  background-color: #7E0001;
+  top: -20px;
+}
+
+.desc{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  font-family: 'krona one';
+}
+
+span{
+  color: gold;
+}
+
+/* App.css */
+.bottom {
+  position: sticky;
+  bottom: 0; /* Stick it to the bottom of the viewport */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7E0001;
+  padding: 15px; /* Optionally add padding for spacing */
+  align-items: center;
+  
+}
+
+
+.switch-button{
+  color: gold;
+}
+
+.hide{
+  padding: 10px;
+  visibility: hidden;
+  width: 0;
+}
+
+.response{
+  color: white;
+  text-align: center;
+  line-height: 1.5; /* Adjust line height as needed for better readability */  
+  text-align:left;
+  white-space: pre-line;
+  padding: 10px;
+}
+
+.display-text{
+  height:55em;
+  margin-top: 7vh;
+
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 10px;
+  width: 270px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: gold;
+}
+
+.keyboard{
+  color: gold;
+}
+
+.mic{
+  position: relative;
+  color: gold;
+  
+}
+
+.send{
+  color: gold;
+  margin-left: 7px;
+}
+
+.Q-list{
+  top: 50px;
+  right: 20px;
+  position: fixed;
+  z-index: 11;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  border: solid gold 5px;
+}
+
+
+
+
+
+
+
+
+
+

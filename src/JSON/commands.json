@@ -1,0 +1,17 @@
+{
+    "commands": {
+      "hello": {
+        "response": "Hello there!",
+        "speakText": "Greetings!"
+      },
+      "weather": {
+        "response": "The weather is sunny today.",
+        "speakText": "The weather is great!"
+      },
+      "time": {
+        "response": "The current time is 2:30 PM.",
+        "speakText": "It's 2:30 PM now."
+      }
+    }
+  }
+  

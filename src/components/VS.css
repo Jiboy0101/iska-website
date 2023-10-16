@@ -1,0 +1,42 @@
+/* VoiceSearch.css */
+
+.microphone-icon.active {
+    animation: beat 0.5s infinite alternate; /* Define your beat animation here */
+  }
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+.voice{
+  color: white;
+  bottom: 0;
+}
+
+.voice-icon{
+background: linear-gradient(to bottom, #c40606, #f1c500); /* Gradient color */
+padding: 20px 20px;
+border-radius: 100px;
+}
+
+.microphone-icon{
+  width: 30px;
+height: 30px;
+
+}
+
+.transc{
+  bottom: 80px;
+  position: fixed;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.transcript{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
